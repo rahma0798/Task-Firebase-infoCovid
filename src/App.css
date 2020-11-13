@@ -1,0 +1,21 @@
+body {
+  /* font-family: OpenSans; */
+}
+.App {
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(90deg, #00c4cc, #621bbe, #00c4cc);
+}
+
+.menu {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+
+.menu:hover {
+  background-color: #8b8b8b;
+  color: #ffffff;
+}
