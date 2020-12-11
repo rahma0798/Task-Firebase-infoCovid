@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(90deg, #00c4cc, #621bbe, #00c4cc);
+  background-color: #00c4cc;
 }
 
 .menu {
@@ -16,6 +16,6 @@ body {
 }
 
 .menu:hover {
-  background-color: #8b8b8b;
+  background-color: #bbd8da;
   color: #ffffff;
 }

@@ -1,4 +1,4 @@
-import { Home, Login, InfoCorona } from '../pages';
+import { Home, Login, InfoCorona, Product } from '../pages';
 
 const routes = [
   // {
@@ -16,6 +16,11 @@ const routes = [
   //   component: Contact,
   //   isPublic: true,
   // },
+  {
+    path: '/product',
+    component: Product,
+    isPublic: false,
+  },
   {
     path: '/home',
     component: Home,

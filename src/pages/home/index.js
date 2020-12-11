@@ -8,7 +8,7 @@ const Home = () => {
   });
   return (
     <div className="text-center pageHome-wrapper">
-      <div className="centered">COVID-19</div>
+      <div className="centered">Welcome</div>
       <img className="pageHome-img1" alt="background1" src={Covid} />
     </div>
   );
