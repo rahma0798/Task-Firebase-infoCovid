@@ -33,14 +33,19 @@ const Product = () => {
   const listProduct = dataProduct.map((data) => {
     return (
       <div key={data.id} className="gallery">
+        <img src={data.variants[0].images[0].product_url} alt="Not Found" />
         <div>{data.name}</div>
         <div>
           Rp.
-          {data.price}
+          {data.display_unit_price}
           ,-
         </div>
         <section className="desc">
-          <div className="title">"{data.description}"</div>
+          <div className="title">
+            &quot;
+            {data.description}
+            &quot;
+          </div>
         </section>
       </div>
     );
